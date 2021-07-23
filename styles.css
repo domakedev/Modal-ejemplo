@@ -36,7 +36,7 @@
   
  
   
- 
+ /* Boton de abrir modal */
   .open-modal { 
     font-weight: bold;
     background: var(--blue);
@@ -45,6 +45,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
   }
+  
   
   /* MODAL
   –––––––––––––––––––––––––––––––––––––––––––––––––– */

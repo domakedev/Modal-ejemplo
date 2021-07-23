@@ -1,14 +1,13 @@
-const openEls = document.querySelectorAll("[data-open]");
+const openEls = document.querySelector("[data-open]");
 const closeEls = document.querySelector("[data-close]");
 const isVisible = "is-visible";
 
 //Revela el modal
-for (const el of openEls) {
-  el.addEventListener("click", function() {
+openEls.addEventListener("click", function() {
     const modalId = this.dataset.open;
     document.getElementById(modalId).classList.add(isVisible);
-  });
-}
+});
+
 
 //Cierra el modal en la X
 closeEls.addEventListener("click", function() {
